@@ -1,0 +1,252 @@
+@media (max-width: 1388px) {
+  .btm-fixed div {
+    width: 98vw;
+  }
+}
+@media (max-height: 850px) {
+  .visual .bg-contents {
+    padding: 15vh 0;
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    min-width: auto;
+  }
+  .inner {
+    width: 100%;
+  }
+  header .header-top {
+    width: 100%;
+  }
+  .visual .inner {
+    width: 750px;
+  }
+  .visual .bg-contents ul li {
+    width: 256px;
+    height: 104px;
+    padding: 26px;
+  }
+  .review .inner {
+    width: 100%;
+  }
+  .review .awards {
+    margin: 50px 0 0;
+  }
+  .review .awards > div {
+    margin-bottom: 70px;
+  }
+  .tutor ul li {
+    background-size: 250px;
+  }
+  .tutor ul li:nth-child(2) {
+    background-size: 200px;
+  }
+  .classlist .menu li {
+    height: auto;
+  }
+  .best-class .top6 ul li {
+    width: calc(50% - 10px);
+    margin-bottom: 24px;
+  }
+  footer .footer-top .sitemap ul li a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  header .header-top {
+    height: 60px;
+    line-height: 13px;
+  }
+  .header-sticky {
+    height: auto;
+    text-align: center;
+    line-height: 2;
+    padding: 9px 0;
+  }
+  .header-sticky p, .header-sticky .time {
+    float: none;
+  }
+  .visual .inner {
+    width: 100%;
+  }
+  .visual .bg-contents {
+    padding: 6vh 0;
+  }
+  .visual .bg-contents h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .visual .bg-contents p {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .visual .bg-contents ul li {
+    width: 41vw;
+    height: auto;
+    padding: 5%;
+  }
+  .visual .bg-contents ul li span {
+    font-size: 15px;
+  }
+  .visual .visual-btn {
+    display: none;
+  }
+  .gnb-sticky {
+    top: 73px;
+  }
+  .gnb-sticky ul {
+    text-align: center;
+  }
+  .gnb-sticky ul li {
+    float: none;
+    display: inline-block;
+    margin: 0 6px;
+  }
+  .gnb-sticky ul li a {
+    font-size: 14px;
+  }
+  .btm-fixed {
+    height: auto;
+    line-height: 4;
+    padding-bottom: 30px;
+    background-color: #000;
+  }
+  .btm-fixed div {
+    width: 100%;
+    flex-direction: column;
+  }
+  .btm-fixed div button {
+    width: 100%;
+  }
+  .intro {
+    padding: 100px 0 80px;
+  }
+  .intro .inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .intro .title span {
+    display: block;
+  }
+  .intro ul li .txt {
+    font-size: 12px;
+  }
+  .intro ul li .txt span {
+    font-size: 15px;
+  }
+  .intro ul li > span {
+    font-size: 17px;
+  }
+  .intro .image {
+    height: auto;
+  }
+  .review .awards > div {
+    display: block;
+    margin: 0 0 70px;
+  }
+  .review .awards > div:before {
+    right: 20px;
+  }
+  .review .awards > div:after {
+    left: 20px;
+  }
+  .review .review-box {
+    margin-bottom: 42px;
+  }
+  .review .review-box > ul li {
+    padding: 15px;
+  }
+  .review .data li {
+    padding: 0 8px;
+    font-size: 11px;
+  }
+  .banner {
+    background-image: none;
+    text-align: center;
+  }
+  .tutor ul {
+    flex-wrap: wrap;
+  }
+  .tutor ul li {
+    flex: 0 1 auto;
+    width: calc(50% - 5px);
+    height: 270px;
+    margin: 0 0 10px 0;
+    background-size: 180px;
+    background-position: right -40px bottom -110px;
+  }
+  .tutor ul li:nth-child(odd) {
+    margin-right: 10px;
+  }
+  .tutor ul li:nth-child(2) {
+    background-size: 150px;
+    background-position: right bottom -110px;
+  }
+  .classlist .title span {
+    display: block;
+  }
+  .classlist .title img {
+    display: none;
+  }
+  .classlist .menu li {
+    width: calc(33.3333333333% - 5px);
+    margin-bottom: 16px;
+  }
+  .classlist .menu li img {
+    margin-bottom: 5px;
+  }
+  .classlist .menu li h5 {
+    display: none;
+  }
+  .best-class .top6 ul li {
+    width: 100%;
+  }
+  .best-class .top6 ul li .image {
+    height: 300px;
+  }
+  .best-class .top6 ul li .txt h5 {
+    font-size: 18px;
+  }
+  .popular-class .title span {
+    display: block;
+  }
+  .popular-class .class-slider > div {
+    height: auto;
+  }
+  .popular-class .slick-arrow {
+    top: auto;
+    bottom: -44px;
+  }
+  .faq .accordion-wrap .answer {
+    padding: 20px 30px 20px 0;
+  }
+  footer {
+    margin-bottom: 150px;
+  }
+  footer .footer-top {
+    flex-direction: column;
+  }
+  footer .footer-top .contact {
+    margin-bottom: 30px;
+  }
+  footer .footer-top .sitemap {
+    flex-wrap: wrap;
+  }
+  footer .footer-top .sitemap ul {
+    flex: 0 1 auto;
+    width: 50%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #222;
+    padding-bottom: 15px;
+  }
+  footer .info {
+    width: 100%;
+  }
+  .gototop {
+    right: 4%;
+    bottom: -135px;
+  }
+  .gototop.active {
+    bottom: 135px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

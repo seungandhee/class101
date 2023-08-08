@@ -1,0 +1,505 @@
+@charset "UTF-8";
+
+@media (max-width: 1388px) {
+
+  // BTM-FIXED
+  .btm-fixed {
+
+    div {
+      width: 98vw;
+    }
+  }
+}
+
+@media (max-height: 850px) {
+  // VISUAL
+  .visual {
+
+    .bg-contents {
+      padding: 15vh 0;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+
+  body {
+    min-width: auto;
+  }
+
+  .inner {
+    width: 100%;
+  }
+
+  // HEADER
+  header {
+
+    .header-top {
+      width: 100%;
+    }
+  }
+
+  // VISUAL
+  .visual {
+
+    .inner {
+      width: 750px;
+    }
+
+    .bg-contents {
+
+      ul {
+
+        li {
+          width: 256px;
+          height: 104px;
+          padding: 26px;
+        }
+      }
+    }
+  }
+
+  // SECTION : REVIEW
+  .review {
+
+    .inner {
+      width: 100%;
+    }
+
+    .awards {
+      margin: 50px 0 0;
+
+      > div {
+        margin-bottom: 70px;
+      }
+    }
+  }
+
+  // ## SECTION : CLASS ##
+
+  // ARTICLE : TUTOR
+  .tutor {
+
+    ul {
+
+      li {
+        background-size: 250px;
+
+        &:nth-child(2) {
+          background-size: 200px;
+        }
+      }
+    }
+  }
+
+  // ARTICLE : CLASSLIST
+  .classlist {
+
+    .menu {
+
+      li {
+        height: auto;
+      }
+    }
+  }
+
+  // ARTICLE : BEST-CLASS
+  .best-class {
+
+    .top6 {
+
+      ul {
+
+        li {
+          width: calc(100%/2 - 10px);
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+
+  // FOOTER
+  footer {
+
+    .footer-top {
+
+      .sitemap {
+  
+        ul {
+  
+          li {
+    
+            a {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  // HEADER
+  header {
+
+    .header-top {
+      height: 60px;
+      line-height: 13px;
+    }
+  }
+
+  // HEADER-STICKY
+  .header-sticky {
+    height: auto;
+    text-align: center;
+    line-height: 2;
+    padding: 9px 0;
+
+    p, .time {
+      float: none;
+    }
+  }
+
+  // VISUAL
+  .visual {
+
+    .inner {
+      width: 100%;
+    }
+
+    .bg-contents {
+      padding: 6vh 0;
+
+      h2 {
+        font-size: 30px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+
+      ul {
+
+        li {
+          width: 41vw;
+          height: auto;
+          padding: 5%;
+
+          span {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .visual-btn {
+      display: none;
+    }
+  }
+
+  // GNB-STICKY
+  .gnb-sticky {
+    top: 73px;
+
+    ul {
+      text-align: center;
+
+      li {
+        float: none;
+        display: inline-block;
+        margin: 0 6px;
+
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  // BTM-FIXED
+  .btm-fixed {
+    height: auto;
+    line-height: 4;
+    padding-bottom: 30px;
+    background-color: #000;
+
+    div {
+      width: 100%;
+      flex-direction: column;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+
+  // SECTION : INTRO
+  .intro {
+    padding: 100px 0 80px;
+
+    .inner {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .title {
+
+      span {
+        display: block;
+      }
+    }
+
+    ul {
+
+      li {
+
+        .txt {
+          font-size: 12px;
+
+          span {
+            font-size: 15px;
+          }
+        }
+
+        > span {
+          font-size: 17px;
+        }
+      }
+    }
+
+    .image {
+      height: auto;
+    }
+  }
+
+  // SECTION : REVIEW
+  .review {
+
+    .awards {
+
+      > div {
+        display: block;
+        margin: 0 0 70px;
+
+        &:before {
+          right: 20px;
+        }
+
+        &:after {
+          left: 20px;
+        }
+      }
+    }
+    
+    .review-box {
+      margin-bottom: 42px;
+
+      > ul {
+
+        li {
+          padding: 15px;
+        }
+      }
+    }
+
+    .data {
+
+      li {
+        padding: 0 8px;
+        font-size: 11px;
+      }
+    }
+  }
+
+  // BANNER
+  .banner {
+    background-image: none;
+    text-align: center;
+  }
+
+  // ## SECTION : CLASS ##
+
+  // ARTICLE : TUTOR
+  .tutor {
+
+    ul {
+      flex-wrap: wrap;
+
+      li {
+        flex: 0 1 auto; // FLEX 초기값
+        width: calc(100%/2 - 5px);
+        height: 270px;
+        margin: 0 0 10px 0;
+        background-size: 180px;
+        background-position: right -40px bottom -110px;
+
+        &:nth-child(odd){
+          margin-right: 10px;
+        }
+
+        &:nth-child(2) {
+          background-size: 150px;
+          background-position: right bottom -110px;
+        }
+      }
+    }
+  }
+
+  // ARTICLE : CLASSLIST
+  .classlist {
+    
+    .title {
+
+      span {
+        display: block;
+      }
+
+      img {
+        display: none;
+      }
+    }
+
+    .menu {
+
+      li {
+        width: calc(100%/3 - 5px);
+        margin-bottom: 16px;
+
+        img {
+          margin-bottom: 5px;
+        }
+
+        h5 {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // ARTICLE : BEST-CLASS
+  .best-class {
+
+    .top6 {
+
+      ul {
+
+        li {
+          width: 100%;
+
+          .image {
+            height: 300px;
+          }
+
+          .txt {
+            
+            h5 {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // ARTICLE : POPULAR-CLASS
+  .popular-class {
+
+    .title {
+      
+      span {
+        display: block;
+      }
+    }
+
+    .class-slider {
+
+      > div {
+        height: auto;
+      }
+    }
+
+    // SLICK JS
+    .slick-arrow {
+      top: auto;
+      bottom: -44px;
+    }
+  }
+
+  // SECTION : FAQ
+  .faq {
+
+    .accordion-wrap {
+
+      .answer {
+        padding: 20px 30px 20px 0;
+      }
+    }
+  }
+
+  // FOOTER
+  footer {
+    margin-bottom: 150px;
+
+    .footer-top {
+      flex-direction: column;
+
+      .contact {
+        margin-bottom: 30px;
+      }
+
+      .sitemap {
+        flex-wrap: wrap;
+
+        ul {
+          flex: 0 1 auto;
+          width: 50%;
+          margin-bottom: 20px;
+          border-bottom: 1px solid #222;
+          padding-bottom: 15px;
+        }
+      }
+    }
+
+    .info {
+      width: 100%;
+    }
+  }
+
+  // GOTOTOP
+  .gototop {
+    right: 4%;
+    bottom: -135px;
+
+    &.active {
+      bottom: 135px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
